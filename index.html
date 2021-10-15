@@ -13,7 +13,10 @@
 <body>
     <div class="container">
         <div class="dice-game">
-            
+            <div class="reset button" id ="reset">
+                <input type="button" class="restart"  value="Reset" onclick="reset()"/>
+                <input type="button" class="restart" value="Restart" onclick="restart()"/>
+            </div>            
             <form class="form-container" id="form-container" onSubmit="onSubmit(event)">
                 <h1 class="form-heading">
                     Please Enter Game Details
