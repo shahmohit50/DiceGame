@@ -4,9 +4,7 @@ let firstPlayerScore = 0;
 let secondPlayerScore = 0;
 let totalScore = 0;
 
-window.onload = function(){
-  document.getElementById("reset").style.display = "none";
-}
+
 function onSubmit(event) {
     
    event.preventDefault();
